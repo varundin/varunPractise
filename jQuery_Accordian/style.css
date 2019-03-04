@@ -1,0 +1,31 @@
+.btn {
+    width: 100%;
+    background-color: #fff;
+    color: cyan;
+    border: 2px solid cyan;
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    margin: 5px auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.btn span {
+    float: right;
+}
+
+.btn:hover {
+    background-color:cyan;
+    color: #fff;
+    cursor: pointer;
+}
+
+.para {
+    display: none;
+    color: darkcyan;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+    transition: 0.4s;
+}
